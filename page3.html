@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page 3</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css?v=2">
+	<!-- Custom CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css?v=1.4">
+</head>
+<body class="pt-2 pb-4 px-4">
+	<div class="container-fluid pt-4">	
+		<form method="get" action="page1.html">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Project Title *</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="project-title" id="input-project-title" placeholder="System Referenced">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">APSF Project ID Number</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="project-id" id="input-project-id" placeholder="System Referenced">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="mt-2 mb-3 text-danger">New Project Cash Flow (Inc Non Grant)</h2>
+
+			<div class="row">
+				<div class="col-md-6 pt-3 pb-2 mb-md-3">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Fiscal Year</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="fiscal-year" id="input-fiscal-year" placeholder="Date input">
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">City Staff Total Cost</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="city-staff-total-cost" id="input-city-staff-total-cost" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 px-3 pt-3 pb-2 mb-md-3 mx-3 mx-md-0 box-grey-border">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Participating</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="city-staff-total-cost-participating" id="input-city-staff-total-cost-participating" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Non-Participating</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="city-staff-total-cost-non-participating" id="input-city-staff-total-cost-non-participating" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 pt-3 pb-2 mb-md-3">
+					<div class="row">
+						<div class="col-md-6 push-md-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Non - City Staff Total Cost</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="non-city-staff-total-cost" id="input-non-city-staff-total-cost" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 px-3 pt-3 pb-2 mb-3 mx-3 mx-md-0 box-grey-border">
+					<div class="row">
+						<div class="col-sm-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Participating</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="non-city-staff-total-cost-participating" id="input-non-city-staff-total-cost-participating" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Non-Participating</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="non-city-staff-total-cost-non-participating" id="input-non-city-staff-total-cost-non-participating" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-6 mt-2 pr-2">
+					<a href="#" class="btn btn-secondary width-100px mb-2 mx-3 align-self-start float-right">Add</a>
+				</div>
+				<div class="col-6 mt-2 pl-2">
+					<a href="#" class="btn btn-secondary width-100px mb-2 align-self-start">Update</a>
+					<br>
+					<label class="red-label px-3 py-1">*** Keep History of Cash Flow Changes</label>
+				</div>
+			</div>
+
+			<hr class="hr-dark-thick mt-2">
+
+			<div class="form-group mt-2">
+				<div class="d-flex">
+					<h6 class="mb-0 mb-2 mr-auto align-self-center"><strong>Succesive FY until Est. Completion date FY</strong></h6>
+					<a href="#" class="btn btn-danger ml-auto mb-2 align-self-center">Double click to modify</a>
+				</div>
+				<div class="table-responsive">
+					<table class="table table-p-1 mb-0">
+						<thead>
+							<tr>
+								<th class="border-bottom-only text-center grey-label">Fiscal Year</th>
+								<th class="border-bottom-only text-center grey-label">Part - City Staff Cost</th>
+								<th class="border-bottom-only text-center grey-label">Part - Non City Staff Cost</th>
+								<th class="border-bottom-only text-center grey-label">Non Part - City Staff Cost</th>
+								<th class="border-bottom-only text-center grey-label">Non Part - Non City Staff Cost</th>
+								<th class="border-bottom-only text-center grey-label">Total</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>List view item</td>
+								<td>List view item</td>
+								<td>List view item</td>
+								<td>List view item</td>
+								<td>List view item</td>
+								<td>List view item</td>
+							</tr>
+							<tr class="active">
+								<td>Selected list view item</td>
+								<td>Selected list view item</td>
+								<td>Selected list view item</td>
+								<td>Selected list view item</td>
+								<td>Selected list view item</td>
+								<td>Selected list view item</td>
+							</tr>
+							<tr>
+								<td>Some other list view item</td>
+								<td>Some other list view item</td>
+								<td>Some other list view item</td>
+								<td>Some other list view item</td>
+								<td>Some other list view item</td>
+								<td>Some other list view item</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				<div class="d-flex mt-2">
+					<label class="mb-0 mb-2 mr-auto align-self-center"><strong>Validation, Every FY entry has to be filled out to submit project</strong></label>
+					<div class="ml-auto align-self-center">
+						<label class="mb-0 mb-2 mr-auto align-self-center"><strong>Validate to estimate project cost</strong></label>					
+						<div class="form-group mb-2 d-flex">
+							<label class="grey-label py-1 px-3 text-center align-self-center mr-auto d-inline float-left" style="max-width: 70px;">Total</label>
+							<input type="text" class="form-control align-self-center ml-auto float-right" style="max-width: 120px" name="project-id" id="input-project-id" placeholder="Text input">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="form-group d-flex">
+				<a href="#" class="btn btn-secondary mr-auto width-100px mb-2 align-self-start">Canel</a>
+				<div class="mx-auto text-center">
+					<a href="#" class="btn btn-secondary mb-2 mx-1 align-self-start">Back - Grant Info</a>
+					<a href="#" class="btn btn-secondary width-100px mb-2 mx-1 align-self-start">Save</a>
+				</div>
+				<a href="#" class="btn btn-secondary ml-auto mb-2 align-self-start">Next - Project Budget</a>
+			</div>
+		</form>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="js/tether.min.js" ></script>
+	<script src="js/popper.min.js" ></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+</body>
+</html>

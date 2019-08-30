@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page 4</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css?v=2">
+	<!-- Custom CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css?v=1.4">
+</head>
+<body class="pt-2 pb-4 px-4">
+	<div class="container-fluid pt-4">	
+		<form method="get" action="page1.html">
+			<div class="row">
+				<div class="col-sm-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Project Title *</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="project-title" id="input-project-title" placeholder="System Referenced">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">APSF Project ID Number</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="project-id" id="input-project-id" placeholder="System Referenced">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="mt-2 mb-3">Project Budget</h2>
+
+			<hr class="hr-dark-thick mt-2">
+			<button type="button" class="close" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+
+			<div class="row">
+				<div class="col-md-8 col-lg-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Est. City Staff Labor</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control has-tooltip" name="est-city-staff-labor" id="input-est-city-staff-labor" placeholder="Text input">
+							<span class="tooltip-btn" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 my-2">
+					<div class="text-center d-none d-md-block">
+						<a href="#" class="btn btn-secondary width-100px">Save</a>
+					</div>
+				</div>
+			</div>
+
+			<hr class="hr-dark-thick mt-2">
+			<button type="button" class="close float-right" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+
+			<div class="row">
+				<div class="col-md-2">
+					<h2 class="mt-2 mb-2">TG655</h2>
+				</div>
+				<div class="col-sm-6 col-md-5 col-lg-4">
+					<div class="form-group mb-2">
+						<div class="align-self-center mb-2">
+							<label class="grey-label py-1 px-3 text-center">Appr. Cost Front Funded by TG Fund 655 Amount</label>
+						</div>
+						<div class="align-self-center">
+							<input type="text" class="form-control has-tooltip" name="appr-cost-front-funded-by-tg-fund-655-amount" id="input-appr-cost-front-funded-by-tg-fund-655-amount" placeholder="Text input">
+							<span class="tooltip-btn" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6 col-md-5 col-lg-6">
+					<div class="row d-none d-sm-block">
+						<div class="col-5 col-sm-12 px-1 text-right">
+							<a href="#" class="btn btn-secondary width-100px mb-2">Add</a>
+						</div>
+						<div class="col-7 col-sm-12 px-1 text-sm-right">
+							<a href="#" class="btn btn-secondary mb-2">Update Only for Non Approved</a>
+						</div>
+					</div>
+					<div class="form-group d-flex mt-2 d-block d-sm-none">
+						<div class="mx-auto text-center text-sm-right">
+							<a href="#" class="btn btn-secondary mb-2 mx-1 align-self-start">Add</a>
+							<a href="#" class="btn btn-secondary mb-2 mx-1 align-self-start">Update Only for Non Approved</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<hr class="hr-dark-thick mt-2">
+			<button type="button" class="close float-right" aria-label="Close">
+				<span aria-hidden="true">×</span>
+			</button>
+
+			<div class="row">
+				<div class="col-sm-2 col-lg-2 mb-2">
+					<h2 class="mt-2 mb-2">Other</h2>
+					<div class="tooltip-btn" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</div>
+				</div>
+				<div class="col-sm-5 col-lg-2">
+					<div class="form-group mb-2">
+						<div class="align-self-center mb-2">
+							<label class="grey-label py-1 px-3 text-center">Type of Funding</label>
+						</div>
+						<div class="align-self-center">
+							<select class="form-control" name="type-of-funding" id="input-type-of-funding">
+								<option>Select</option>
+								<option>Match</option>
+								<option>Over Match</option>
+								<option>Front Funding</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-lg-3">
+					<div class="form-group mb-2">
+						<div class="align-self-center mb-2">
+							<label class="grey-label py-1 px-3 text-center">Appropriation Cost Funded by Funding Sources - Fund Number (Other)</label>
+						</div>
+						<div class="align-self-center">
+							<select class="form-control" name="appropriation-cost-funded-by-funding-sources" id="input-appropriation-cost-funded-by-funding-sources">
+								<option>Select</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-lg-2">
+					<div class="form-group mb-2">
+						<div class="align-self-center mb-2">
+							<label class="grey-label py-1 px-3 text-center">Appr Account Number</label>
+						</div>
+						<div class="align-self-center">
+							<input type="text" class="form-control" name="appr-account-number" id="input-appr-account-number" placeholder="Text input">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5 col-lg-2">
+					<div class="form-group mb-2">
+						<div class="align-self-center mb-2">
+							<label class="grey-label py-1 px-3 text-center">Amount</label>
+						</div>
+						<div class="align-self-center">
+							<input type="text" class="form-control" name="amount" id="input-amount" placeholder="Text input">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-2 col-lg-1 text-center align-self-sm-end align-self-lg-start">
+					<a href="#" class="btn btn-secondary mb-2">Add</a>
+				</div>
+			</div>
+
+			<div class="px-3 pt-3 pb-2 mb-3 mx-3 mx-md-0 box-grey-border">
+				<div class="table-responsive" style="border: 2px solid #666; border-radius: 5px;">
+					<table class="table mb-0 table-sm" style="background: #fff">
+						<thead>
+							<tr>
+								<th class="py-2">Date Entered</th>
+								<th class="py-2">Type of Funding</th>
+								<th class="py-2">Fund Number</th>
+								<th class="py-2">Appr Account Number</th>
+								<th class="py-2">Amount</th>
+								<th class="py-2">Date Approved</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr class="active">
+								<td>Selected list view item</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Some other list view item</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+							<tr>
+								<td>Separated list view item</td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+
+			<div class="form-group mb-2 text-sm-right">
+				<label class="grey-label py-1 px-3 text-center mb-1">Total Appropriation</label>
+				<input type="text" class="form-control d-inline-block" style="max-width: 250px" name="total-appropriation" id="input-total-appropriation" placeholder="Appr Cost (655 plus many other)">
+			</div>
+
+			<hr class="hr-dark-thick mt-2">
+
+			<div class="form-group mb-3 text-center">
+				<h5 class="grey-label py-1 px-3 text-center mb-1 d-inline-block">Project Total Budget</h5>
+				<input type="text" class="form-control d-inline-block" style="max-width: 300px" name="total-budget" id="input-total-budget" placeholder="City Staff Labor + Total Appropriation Cost">
+			</div>
+
+			<div class="form-group d-flex">
+				<a href="#" class="btn btn-secondary mr-auto width-100px mb-2 align-self-start">Canel</a>
+				<div class="mx-auto text-center">
+					<a href="#" class="btn btn-secondary width-100px mb-2 mx-1 align-self-start">Back</a>
+					<a href="#" class="btn btn-secondary width-100px mb-2 mx-1 align-self-start">Save</a>
+				</div>
+				<a href="#" class="btn btn-secondary ml-auto mb-2 align-self-start" style="font-weight: bold; font-size: 1.1rem">Submit Project</a>
+			</div>
+		</form>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="js/tether.min.js" ></script>
+	<script src="js/popper.min.js" ></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+</body>
+</html>

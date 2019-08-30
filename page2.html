@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Page 2</title>
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css?v=2">
+	<!-- Custom CSS -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css?v=1.4">
+</head>
+<body class="pt-2 pb-4 px-4">
+	<div class="container-fluid pt-4">	
+		<form method="get" action="page1.html">
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Project Title *</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="project-title" id="input-project-title" placeholder="System Referenced">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">APSF Project ID Number</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="project-id" id="input-project-id" placeholder="System Referenced">
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<h2 class="my-2">Grant Info</h2>
+
+			<div class="row">
+				<div class="col-md-6 push-md-6 text-center align-self-center">
+					<label class="mb-0 mb-2"><strong>(PM can change, No work flow)</strong></label>
+				</div>
+				<div class="col-md-6 pull-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Grant Program</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<select class="form-control" name="grant-program" id="input-grant-program">
+								<option>Select</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+							</select>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Grant Project ID No.</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-6 pr-lg-1 pr-md-3 pr-1 mb-lg-0 mb-md-2 mb-0">
+									<select class="form-control" name="grant-program" id="input-grant-program">
+										<option>Prefix Dropdown</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+									</select>
+								</div>
+								<div class="col-lg-6 col-md-12 col-6 pl-lg-1 pl-md-3 pl-1">
+									<input type="text" class="form-control" name="project-id" id="input-project-id" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Grant Contact</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="grant-contact-phone" id="input-grant-contact-phone" placeholder="Phone">
+						</div>
+						<div class="clearfix"></div>
+					</div>
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 mb-2 mb-sm-0 align-self-center">
+							<input type="text" class="form-control has-tooltip" name="grant-contact-name" id="input-grant-contact-name" placeholder="Name">
+							<span class="tooltip-btn tooltip-purple" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="grant-contact-email" id="input-grant-contact-email" placeholder="Email">
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-6 push-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Council File No. [To Apply]</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="file-apply" id="input-file-apply" placeholder="Text input">
+						</div>
+					</div>
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Council File No. [To Accept]</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="file-accept" id="input-file-accept" placeholder="Text input">
+						</div>
+					</div>
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-7 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Council File No. [To Match and Front Funding]</label>
+						</div>
+						<div class="col-sm-7 col-md-5 align-self-center">
+							<input type="text" class="form-control" name="file-match-front-funding" id="input-file-match-front-funding" placeholder="Text input">
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 pull-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Grant Amount</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control has-tooltip" name="grant-amount" id="input-grant-amount" placeholder="Text input">
+							<span class="tooltip-btn" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+						</div>
+					</div>
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Local Match Amount</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control has-tooltip" name="local-match-amount" id="input-local-match-amount" placeholder="Text input">
+							<span class="tooltip-btn" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+						</div>
+					</div>
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Local Match Percentage</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="local-match-percentage" id="input-local-match-percentage" placeholder="Calculated">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 d-none d-sm-block">
+					<div class="form-group mb-0 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<div class="form-group mb-2">
+								<div style="min-height: 38px; margin-top: 5px" class="align-self-center"><label class="grey-label py-1 px-3 text-center">Local Match Funding Source</label></div>
+							</div>
+							<div class="form-group mb-2">
+								<div style="min-height: 38px; margin-top: 5px"><label class="grey-label py-1 px-3 text-center">Local Match Funding Amount</label></div>
+							</div>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<div class="row">
+								<div class="col-sm-7 col-md-7 align-self-center pr-1">
+									<div class="form-group mb-2">
+										<input type="text" class="form-control" name="local-match-funding-source" id="input-local-match-funding-source" placeholder="Text input">
+									</div>
+									<div class="form-group mb-2">
+										<input type="text" class="form-control" name="local-match-funding-source" id="input-local-match-funding-source" placeholder="Text input">
+									</div>
+								</div>
+								<div class="col-sm-5 col-md-5 align-self-center pl-1">
+									<span class="tooltip-btn float-left mr-2" style="margin-top: 15px" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+									<a href="#" class="btn btn-secondary 1btn-block float-right" style="margin-bottom: 20px; margin-top: 10px">ADD</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 d-block d-sm-none">
+					<div class="row">
+						<div class="col-8 pr-1">
+							<div class="form-group mb-2 row">
+								<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+									<label class="grey-label py-1 px-3 text-center">Local Match Funding Source</label>
+								</div>
+								<div class="col-sm-7 col-md-6 align-self-center">
+									<input type="text" class="form-control" name="local-match-funding-source" id="input-local-match-funding-source" placeholder="Text input">
+								</div>
+							</div>
+							<div class="form-group mb-2 row">
+								<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+									<label class="grey-label py-1 px-3 text-center">Local Match Funding Amount</label>
+								</div>
+								<div class="col-sm-7 col-md-6 align-self-center">
+									<input type="text" class="form-control" name="local-match-funding-source" id="input-local-match-funding-source" placeholder="Text input">
+								</div>
+							</div>
+						</div>
+						<div class="col-4 pl-1 align-self-center">
+							<span class="tooltip-btn float-left mr-2" style="margin-top: 15px" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+							<a href="#" class="btn btn-secondary 1btn-block float-right" style="margin-bottom: 20px; margin-top: 10px">ADD</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="row">
+						<div class="col-sm-6 col-md-6 mb-2 align-self-center">
+							<table class="table table-p-0 mb-0">
+								<tbody>
+									<tr>
+										<td>XX</td>
+										<td>XX</td>
+									</tr>
+									<tr class="active">
+										<td>XX</td>
+										<td>XX</td>
+									</tr>
+									<tr>
+										<td>Source</td>
+										<td>Amount</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<div class="col-sm-6 col-md-6 mb-2 d-flex flex-column">
+							<div class="form-group mb-2 row mt-auto">
+								<div class="col-sm-12 align-self-center mb-1 pr-3">
+									<label class="grey-label py-1 px-3 text-center">Local Match Amount Total</label>
+								</div>
+								<div class="col-sm-12 align-self-center">
+									<input type="text" class="form-control" name="local-match-amount-total" id="input-local-match-amount-total" placeholder="Calculated">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 push-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Reimbursement Ratio</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<input type="text" class="form-control" name="reimbursement-ratio" id="input-reimbursement-ratio" placeholder="jl - Local Match Percentage">
+						</div>
+					</div>
+					<div class="form-group mb-0 row">
+						<div class="col-sm-5 col-md-12 align-self-center mb-2">
+							<label class="grey-label py-1 px-3 text-center">Upload Executed Documents</label>
+						</div>
+						<div class="col-sm-7 col-md-12 align-self-center mb-1 mb-sm-0">
+							<div class="row">
+								<div class="col-md-3 col-6 mb-2 pr-1">
+									<select class="form-control" name="grant-id" id="input-grant-id">
+										<option>Grant ID</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+									</select>
+								</div>
+								<div class="col-md-3 col-6 mb-2 px-1 pr-3 pr-md-1">
+									<select class="form-control" name="grant-type" id="input-grant-type">
+										<option>Type</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+									</select>
+								</div>
+								<div class="col-md-4 col-8 mb-2 px-1 pl-3 pl-md-1">
+									<label class="custom-file m-md-auto">
+										<input type="file" id="file" class="custom-file-input" name="RequestLetter" id="input-RequestLetter">
+										<span class="custom-file-control"></span>
+									</label>
+								</div>
+								<div class="col-md-2 col-4 mb-2 pl-1">
+									<a href="#" class="btn btn-secondary btn-block">Upload</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="form-group mb-2">
+						<table class="table table-p-0 mb-0">
+							<tbody>
+								<tr>
+									<td>List view item</td>
+								</tr>
+								<tr class="active">
+									<td>Grant ID - Type - File Name</td>
+								</tr>
+								<tr>
+									<td>Link</td>
+								</tr>
+								<tr>
+									<td><hr class="my-0"></td>
+								</tr>
+								<tr>
+									<td>Link</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<div class="col-md-6 pull-md-6">
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">Grant Funding Source</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<select class="form-control" name="grant-funding-source" id="input-grant-funding-source">
+								<option>Select</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+							</select>
+						</div>
+					</div>
+					<div class="form-group mb-2 row">
+						<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+							<label class="grey-label py-1 px-3 text-center">CFDA Number</label>
+						</div>
+						<div class="col-sm-7 col-md-6 align-self-center">
+							<select class="form-control has-tooltip" name="grant-funding-source" id="input-grant-funding-source">
+								<option>Select</option>
+								<option>Option 2</option>
+								<option>Option 3</option>
+							</select>
+							<span class="tooltip-btn" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+						</div>
+					</div>
+					<div class="d-none d-sm-block">
+						<div class="form-group mb-0 row">
+							<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+								<div class="form-group mb-2">
+									<div style="min-height: 38px; margin-top: 5px" class="align-self-center"><label class="grey-label py-1 px-3 text-center">Grant Award Date</label></div>
+								</div>
+								<div class="form-group mb-2">
+									<div style="min-height: 38px; margin-top: 5px"><label class="grey-label py-1 px-3 text-center">Grant Lapse Date</label></div>
+								</div>
+							</div>
+							<div class="col-sm-7 col-md-6 align-self-center">
+								<div class="row">
+									<div class="col-sm-7 col-md-7 align-self-center pr-1">
+										<div class="form-group mb-2">
+											<input type="text" class="form-control" name="grant-award-date" id="input-grant-award-date" placeholder="Date input">
+										</div>
+										<div class="form-group mb-2">
+											<input type="text" class="form-control" name="grant-lapse-date" id="input-grant-lapse-date" placeholder="Date input">
+										</div>
+									</div>
+									<div class="col-sm-5 col-md-5 align-self-center pl-1">
+										<span class="tooltip-btn float-left mr-2" style="margin-top: 15px" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+										<a href="#" class="btn btn-secondary 1btn-block float-right" style="margin-bottom: 20px; margin-top: 10px">ADD</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-block d-sm-none">
+						<div class="row">
+							<div class="col-8 pr-1">
+								<div class="form-group mb-2 row">
+									<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+										<label class="grey-label py-1 px-3 text-center">Grant Award </label>
+									</div>
+									<div class="col-sm-7 col-md-6 align-self-center">
+										<input type="text" class="form-control" name="grant-award-date" id="input-grant-award-date" placeholder="Date input">
+									</div>
+								</div>
+								<div class="form-group mb-2 row">
+									<div class="col-sm-5 col-md-6 align-self-center mb-1 mb-sm-0">
+										<label class="grey-label py-1 px-3 text-center">Grant Lapse Date</label>
+									</div>
+									<div class="col-sm-7 col-md-6 align-self-center">
+										<input type="text" class="form-control" name="grant-lapse-date" id="input-grant-lapse-date" placeholder="Date input">
+									</div>
+								</div>
+							</div>
+							<div class="col-4 pl-1 align-self-center">
+								<span class="tooltip-btn float-left mr-2" style="margin-top: 15px" data-toggle="tooltip" data-placement="bottom" title="Description about this field will show up here">***</span>
+								<a href="#" class="btn btn-secondary 1btn-block float-right" style="margin-bottom: 20px; margin-top: 10px">ADD</a>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Grant Funding Phase</label>
+								</div>
+								<div class="align-self-center">
+									<select class="form-control" name="grant-funding-phase" id="input-grant-funding-phase">
+										<option>Select</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+									</select>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Non Phase Description</label>
+								</div>
+								<div class="align-self-center">
+									<input type="text" class="form-control" name="non-phase-description" id="input-non-phase-description" placeholder="If N/A Grant Funding Phase then this field is required">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">Grant Payment Method</label>
+								</div>
+								<div class="align-self-center">
+									<select class="form-control" name="grant-payment-method" id="input-grant-payment-method">
+										<option>Reim. Basis, Advance</option>
+										<option>Option 2</option>
+										<option>Option 3</option>
+									</select>
+								</div>
+							</div>
+							<div class="text-center d-none d-md-block">
+								<a href="#" class="btn btn-secondary width-100px">Update</a>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group mb-2">
+								<div class="align-self-center mb-2">
+									<label class="grey-label py-1 px-3 text-center">List of Grants</label>
+								</div>
+								<div class="align-self-center">
+									<table class="table table-p-0 mb-0">
+										<tbody>
+											<tr>
+												<td>Grant ID</td>
+											</tr>
+											<tr class="active">
+												<td>Selected list view item</td>
+											</tr>
+											<tr>
+												<td>Some other list view item</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class="text-center d-block d-md-none">
+								<a href="#" class="btn btn-secondary width-100px">Update</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<hr class="hr-dark-thick mt-2">
+			<div class="form-group mt-2">
+				<a href="#" class="btn btn-danger float-right mb-2">Double click to modify</a>
+				<div class="table-responsive">
+					<table class="table table-p-0 mb-0">
+						<tbody>
+							<tr>
+								<td>LADOT Grant 101</td>
+								<td>ATP 50061456</td>
+								<td>XX</td>
+								<td>XX</td>
+								<td>$XXXX.XX</td>
+								<td>$XXXX.XX</td>
+								<td>XX</td>
+							</tr>
+							<tr class="active">
+								<td>LADOT Grant 107</td>
+								<td>MOU 100546P</td>
+								<td>XX</td>
+								<td>XX</td>
+								<td>$XXXX.XX</td>
+								<td>$XXXX.XX</td>
+								<td>XX</td>
+							</tr>
+							<tr>
+								<td>XXX</td>
+								<td>XXX</td>
+								<td>Grand Award Date</td>
+								<td>Grand Lapse Date</td>
+								<td>Grand Amount</td>
+								<td>Local Match</td>
+								<td>Local Match Percentage</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="form-group d-flex mt-2">
+				<a href="#" class="btn btn-secondary mr-auto width-100px mb-2 align-self-start">Canel</a>
+				<div class="mx-auto text-center">
+					<a href="#" class="btn btn-secondary mb-2 mx-1 align-self-start">Back - Project Info</a>
+					<a href="#" class="btn btn-secondary width-100px mb-2 mx-1 align-self-start">Save</a>
+				</div>
+				<a href="#" class="btn btn-secondary ml-auto mb-2 align-self-start">Next - Grant Cash Flow</a>
+			</div>
+		</form>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- Bootstrap JavaScript -->
+	<script src="js/tether.min.js" ></script>
+	<script src="js/popper.min.js" ></script>
+	<script src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('[data-toggle="tooltip"]').tooltip()
+		})
+	</script>
+</body>
+</html>
